@@ -1,0 +1,53 @@
+<!--<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">-->
+
+<!--Comienzan los estilos del menu-->
+<style type="text/css">
+* {
+margin:0px;
+padding:0px;
+}
+#header {
+margin:auto;
+width:auto;
+font-family:Calibri, Helvetica, sans-serif;
+ 
+}
+ul, ol {
+list-style:none;
+}
+.nav > li {
+float:left;
+}
+.nav li a {
+background-color:#444542;
+color:#ffffff;
+text-decoration:none;
+padding:24px 12px;
+display:block;
+border-left:6px solid;
+border-left-color:#444542;
+ min-width:100px;
+ font-size:19px;
+ }
+.nav li a:hover {
+background-color:#000000;
+border-left-color:#d10100;
+}
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+.nav li:hover > ul {
+display:block;
+}
+.nav li ul li {
+position:relative;
+}
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
+</style>
+<!-- Termina los estilos del menu-->
